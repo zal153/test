@@ -92,7 +92,7 @@ Semoga ulang tahunmu penuh tawa, cinta, dan hal-hal manis yang kamu pantas dapat
 
     // Tombol Share WhatsApp
     shareBtn.addEventListener("click", () => {
-        const text = encodeURIComponent("Hai Aida 💖, buka ini deh: [link website kamu]");
+        const text = encodeURIComponent("Hai Aida 💖, buka ini deh: https://sparkling-donut-12345.netlify.app/");
         window.open(`https://wa.me/?text=${text}`, "_blank");
     });
 }
