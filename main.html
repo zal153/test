@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Selamat Ulang Tahun, Aida 🎂</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gradient-to-b from-pink-100 via-pink-200 to-white text-center flex flex-col items-center justify-center h-screen overflow-hidden relative">
+  <div class="relative z-10 px-4">
+    <h1 class="text-4xl md:text-6xl font-bold text-pink-700 animate-fadeIn">Selamat Ulang Tahun, Aida 🎂💐</h1>
+    <p id="typewriter" class="mt-6 text-lg md:text-xl text-gray-700 font-light leading-relaxed whitespace-pre-line"></p>
+
+    <div class="mt-8">
+      <button id="next-btn" class="bg-pink-500 text-white px-6 py-3 rounded-full shadow-lg hover:scale-110 transition-transform animate-fadeInDelay2">
+        Lihat sesuatu lagi 👉
+      </button>
+    </div>
+
+    <p id="final-message" class="mt-8 text-xl text-pink-600 font-semibold hidden animate-fadeInSlow">
+      I love you always ❤️
+    </p>
+
+    <button id="share-btn" class="mt-6 bg-green-500 text-white px-4 py-2 rounded-full hidden hover:scale-110 transition-transform">
+      💌 Kirim ke WhatsApp
+    </button>
+  </div>
+
+  <div class="absolute inset-0 z-0 overflow-hidden" id="petals"></div>
+  <canvas id="confetti-canvas" class="absolute inset-0 pointer-events-none"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
